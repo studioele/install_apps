@@ -4,7 +4,7 @@
 # To execute: save and `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh`
 
 echo "Installing Command Line Tools (CLT) for Xcode"
-xcode-select --install 
+xcode-select --install
 
 echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -38,7 +38,7 @@ brew install --cask --no-quarantine google-drive
 echo "Installing writing apps..."
 brew install --cask --no-quarantine libreoffice
 brew install --cask --no-quarantine libreoffice-language-pack
-    
+
 # # Graphics
 echo "Installing graphics apps..."
 brew install --cask --no-quarantine gimp
@@ -55,7 +55,7 @@ brew install --cask --no-quarantine macpass
 brew install --cask --no-quarantine keka
 brew install --cask --no-quarantine lulu
 
-
+echo "FERTIG"
 
 # brew install --cask --no-quarantine google-drive gimp appcleaner macpass blender inkscape scribus firefox keka qgis libreoffice libreoffice-language-pack lulu darktable anydesk iterm2 zoom skype github
 
