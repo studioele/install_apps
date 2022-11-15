@@ -1,0 +1,2 @@
+chmod +x ./brew-install-script.sh
+./brew-install-script.sh
